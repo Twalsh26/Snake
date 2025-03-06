@@ -9,7 +9,8 @@ background-color: black;
 }
 
 #game-board {
-    background-color: #ccc;
+    background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-2.jpg);
+    /* background-color: #ccc; */
     width: 100vmin;
     height: 100vmin;
     display: grid;
@@ -18,11 +19,13 @@ background-color: black;
 }
 
 .snake {
-    background-color: rgb(5, 145, 24);
+    /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/013/519/076/small_2x/pixel-art-rocket-png.png); */
+    background-color: rgb(87, 91, 87);
     border: .25vmin solid black;
 }
 
 .food {
-    background-color: rgb(255, 0, 212);
+    
+    background-color: rgb(255, 242, 0);
     border: .25vmin solid black;
 }
